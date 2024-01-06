@@ -7,13 +7,13 @@ terraform {
   }
 
 
-     backend "s3" {
-      bucket = "prema76-remote-state"
-      key    = "foreach"
-      region = "us-east-1"
-      dynamodb_table = "prema76-locking"
+    backend "s3" {
+       bucket = "prema76-remote-state"
+       key    = "foreach"
+       region = "us-east-1"
+       dynamodb_table = "prema76-locking"
 
-  }
+ }
 
 }  
 
